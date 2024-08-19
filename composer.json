@@ -4,6 +4,7 @@
     "require": {
         "composer/installers": "^2.2",
         "johnpbloch/wordpress": "^6.3.0",
+        "humanmade/s3-uploads": "^3.0.7",
         "wpackagist-plugin/wp-super-cache":"^1.9.4",
         "wpackagist-plugin/elementor":"^3.22.2",
         "wpackagist-plugin/essential-addons-for-elementor-lite":"^6.0.0",
