@@ -13,6 +13,7 @@ if ('%ENABLE_CACHE%' === 'true') {
     define('WP_CACHE', true);
     define('WPCACHEHOME', WP_CONTENT_DIR . '/plugins/wp-super-cache/');
 }
+define( 'FS_METHOD', 'direct' );
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
@@ -30,6 +31,3 @@ if (!defined('WP_CLI')) {
         return $methods;
     });
 }
-define( 'FS_METHOD', 'direct' );
-}
-
