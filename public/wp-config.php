@@ -30,3 +30,6 @@ if (!defined('WP_CLI')) {
         return $methods;
     });
 }
+define( 'FS_METHOD', 'direct' );
+}
+
